@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Famous Football Players</string>
+    <string name="string_tvHeader"><b>TOP 3</b></string>
+    <string name="string_btnInspiration">INSPIRATION</string>
+    <string name="string_tvNamePlayer1"><b>Luka Modrić</b></string>
+    <string name="string_tvBirthPlayer1">9 September 1985, Zadar (Croatia)</string>
+    <string name="string_tvInfoPlayer1">Luka Modrić is a Croatian professional football player.</string>
+    <string name="string_tvNamePlayer2"><b>Zlatan Ibrahimović</b></string>
+    <string name="string_tvBirthPlayer2">3 October 1981, Malmö (Sweden)</string>
+    <string name="string_tvInfoPlayer2">Zlatan Ibrahimović is a Swedish professional footballer who plays as a striker.</string>
+    <string name="string_tvNamePlayer3"><b>Cristiano Ronaldo dos Santos Aveiro</b></string>
+    <string name="string_tvBirthPlayer3">5 February 1985, Funchal, Madeira (Portugal)</string>
+    <string name="string_tvInfoPlayer3">Cristiano Ronaldo is a Portuguese professional footballer who plays as a forward.</string>
+    <string name="string_etEnterNewDescriptionHint">Enter new description</string>
+    <string name="string_btnEditDescription">EDIT DESCRIPTION</string>
+    <string name="string_rbPlayer1">Luka Modrić</string>
+    <string name="string_rbPlayer2">Zlatan Ibrahimović</string>
+    <string name="string_rbPlayer3">Cristiano Ronaldo</string>
+</resources>

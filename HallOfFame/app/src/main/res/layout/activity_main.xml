@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <TextView
+        android:id="@+id/tvHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/string_tvHeader"
+        android:textAlignment="center"
+        android:layout_toEndOf="@id/btnInspiration"
+        android:layout_alignBaseline="@id/btnInspiration"
+        android:textColor="@color/color_black"
+     />
+
+    <Button
+        android:id="@+id/btnInspiration"
+        android:onClick="onClickInspiration"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/string_btnInspiration"
+        android:gravity="center_vertical"
+    />
+
+    <ImageView
+        android:id="@+id/ivPlayer1"
+        android:onClick="onClickFact"
+        android:layout_width="@dimen/dimen_ImageSize"
+        android:layout_height="@dimen/dimen_ImageSize"
+        android:layout_below="@id/btnInspiration"
+        android:src="@drawable/modric"
+        android:contentDescription="@string/string_tvNamePlayer1"
+     />
+
+    <TextView
+        android:id="@+id/tvNamePlayer1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnInspiration"
+        android:layout_toEndOf="@id/ivPlayer1"
+        android:text="@string/string_tvNamePlayer1"
+        android:textSize="@dimen/dimen_HeaderSize"
+        android:textColor="@color/color_black"
+    />
+
+    <TextView
+        android:id="@+id/tvBirthPlayer1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvNamePlayer1"
+        android:layout_toEndOf="@id/ivPlayer1"
+        android:text="@string/string_tvBirthPlayer1"
+        android:textSize="@dimen/dimen_TextSize"
+    />
+
+    <TextView
+        android:id="@+id/tvInfoPlayer1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvBirthPlayer1"
+        android:layout_toEndOf="@id/ivPlayer1"
+        android:text="@string/string_tvInfoPlayer1"
+        android:textSize="@dimen/dimen_TextSize"
+        android:textColor="@color/color_black"
+     />
+
+    <ImageView
+        android:id="@+id/ivPlayer2"
+        android:onClick="onClick"
+        android:layout_width="@dimen/dimen_ImageSize"
+        android:layout_height="@dimen/dimen_ImageSize"
+        android:layout_below="@id/ivPlayer1"
+        android:layout_marginTop="@dimen/dimen_MarginTop"
+        android:src="@drawable/zlatan"
+        android:contentDescription="@string/string_tvNamePlayer2"
+        />
+
+    <TextView
+        android:id="@+id/tvNamePlayer2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ivPlayer1"
+        android:layout_marginTop="@dimen/dimen_MarginTop"
+        android:layout_toEndOf="@id/ivPlayer2"
+        android:text="@string/string_tvNamePlayer2"
+        android:textSize="@dimen/dimen_HeaderSize"
+        android:textColor="@color/color_black"
+        />
+
+    <TextView
+        android:id="@+id/tvBirthPlayer2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvNamePlayer2"
+        android:layout_toEndOf="@id/ivPlayer2"
+        android:text="@string/string_tvBirthPlayer2"
+        android:textSize="@dimen/dimen_TextSize"
+    />
+
+    <TextView
+        android:id="@+id/tvInfoPlayer2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvBirthPlayer2"
+        android:layout_toEndOf="@id/ivPlayer2"
+        android:text="@string/string_tvInfoPlayer2"
+        android:textSize="@dimen/dimen_TextSize"
+        android:textColor="@color/color_black"
+    />
+
+    <ImageView
+        android:id="@+id/ivPlayer3"
+        android:onClick="onClickInfo"
+        android:layout_width="@dimen/dimen_ImageSize"
+        android:layout_height="@dimen/dimen_ImageSize"
+        android:layout_below="@id/ivPlayer2"
+        android:layout_marginTop="@dimen/dimen_MarginTop"
+        android:src="@drawable/ronaldo"
+        android:contentDescription="@string/string_tvNamePlayer3"
+    />
+
+    <TextView
+        android:id="@+id/tvNamePlayer3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ivPlayer2"
+        android:layout_marginTop="@dimen/dimen_MarginTop"
+        android:layout_toEndOf="@id/ivPlayer3"
+        android:text="@string/string_tvNamePlayer3"
+        android:textSize="@dimen/dimen_HeaderSize"
+        android:textColor="@color/color_black"
+    />
+
+    <TextView
+        android:id="@+id/tvBirthPlayer3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvNamePlayer3"
+        android:layout_toEndOf="@id/ivPlayer3"
+        android:text="@string/string_tvBirthPlayer3"
+        android:textSize="@dimen/dimen_TextSize"
+    />
+
+    <TextView
+        android:id="@+id/tvInfoPlayer3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvBirthPlayer3"
+        android:layout_toEndOf="@id/ivPlayer3"
+        android:text="@string/string_tvInfoPlayer3"
+        android:textSize="@dimen/dimen_TextSize"
+        android:textColor="@color/color_black"
+    />
+
+    <EditText
+        android:id="@+id/etEnterNewDescriptionHint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ivPlayer3"
+        android:layout_marginTop="@dimen/dimen_MarginTop"
+        android:hint="@string/string_etEnterNewDescriptionHint"
+    />
+
+    <Button
+        android:id="@+id/btnEditDescription"
+        android:onClick="changeInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etEnterNewDescriptionHint"
+        android:text="@string/string_btnEditDescription"
+    />
+
+    <RadioButton
+        android:id="@+id/rbPlayer1"
+        android:checked="false"
+        android:onClick="changeRadioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnEditDescription"
+        android:layout_marginTop="@dimen/dimen_MarginTop"
+        android:text="@string/string_rbPlayer1"
+    />
+
+    <RadioButton
+        android:id="@+id/rbPlayer2"
+        android:checked="false"
+        android:onClick="changeRadioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnEditDescription"
+        android:layout_marginTop="@dimen/dimen_MarginTop"
+        android:layout_toEndOf="@id/rbPlayer1"
+        android:text="@string/string_rbPlayer2"
+    />
+
+    <RadioButton
+        android:id="@+id/rbPlayer3"
+        android:checked="false"
+        android:onClick="changeRadioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnEditDescription"
+        android:layout_marginTop="@dimen/dimen_MarginTop"
+        android:layout_toEndOf="@id/rbPlayer2"
+        android:text="@string/string_rbPlayer3"
+    />
+
+</RelativeLayout>
